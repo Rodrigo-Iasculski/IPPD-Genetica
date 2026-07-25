@@ -1,6 +1,3 @@
-### _IPPD-Genetica_
-Trabalho feito para disciplina de Introdução Processamento Paralelo E Distribuído na UFPEL.
-
 ### _Integrantes do grupo_
 ***
 _Carlos Henrique Goebel Teixeira Furtado_
@@ -8,7 +5,9 @@ _Carlos Henrique Goebel Teixeira Furtado_
 _Lorenzo Baldissera Saldanha_
 
 _Rodrigo Iasculski Da Conceição_
-
+***
+### _IPPD-Genetica_
+Trabalho feito para disciplina de Introdução Processamento Paralelo E Distribuído na UFPEL.
 
 Use para compilar:
 ```bash
