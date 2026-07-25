@@ -6,3 +6,12 @@ Use para compilar:
 
 E use para executar:
   ./TrabalhoGeneticaIPPD
+
+
+### _Integrantes do grupo_
+***
+_Carlos Henrique Goebel Teixeira Furtado_
+
+_Lorenzo Baldissera Saldanha_
+
+_Rodrigo Iasculski Da Conceição_
