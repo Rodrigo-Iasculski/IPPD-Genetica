@@ -1,4 +1,4 @@
-# IPPD-Genetica
+###_IPPD-Genetica_
 Trabalho feito para disciplina de Introdução Processamento Paralelo E Distribuído na UFPEL.
 
 Use para compilar:
@@ -8,6 +8,27 @@ Use para compilar:
 E use para executar:
 ```bash
   ./TrabalhoGeneticaIPPD
+```
+###_Usando o Xivoco_
+Usamos 8 nós para a execução.
+
+Faça isso tudo no master:
+```bash
+  mpicc -fopenmp TrabalhoGeneticaIPPD.c -o TrabalhoGeneticaIPPD -lm
+```
+Após isso:
+```bash
+  scp ./TrabalhoGeneticaIPPD worker-1:~/
+  scp ./TrabalhoGeneticaIPPD worker-2:~/
+  scp ./TrabalhoGeneticaIPPD worker-3:~/
+  scp ./TrabalhoGeneticaIPPD worker-4:~/
+  scp ./TrabalhoGeneticaIPPD worker-5:~/
+  scp ./TrabalhoGeneticaIPPD worker-6:~/
+  scp ./TrabalhoGeneticaIPPD worker-7:~/
+```
+Logo após:
+```bash
+  mpirun -np 8 --host master,worker-1,worker-2,worker-3,worker-4,worker-5,worker-6,worker-7 ./TrabalhoGeneticaIPPD arquivo_fasta.fa
 ```
 
 ### _Integrantes do grupo_
