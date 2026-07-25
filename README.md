@@ -9,6 +9,7 @@ E use para executar:
 ```bash
   ./TrabalhoGeneticaIPPD
 ```
+***
 ### _Usando o Xivoco_
 Usamos 8 nós para a execução.
 
