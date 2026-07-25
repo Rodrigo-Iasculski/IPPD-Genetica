@@ -1,4 +1,4 @@
-###_IPPD-Genetica_
+### _IPPD-Genetica_
 Trabalho feito para disciplina de Introdução Processamento Paralelo E Distribuído na UFPEL.
 
 Use para compilar:
@@ -9,7 +9,7 @@ E use para executar:
 ```bash
   ./TrabalhoGeneticaIPPD
 ```
-###_Usando o Xivoco_
+### _Usando o Xivoco_
 Usamos 8 nós para a execução.
 
 Faça isso tudo no master:
@@ -28,7 +28,7 @@ Após isso:
 ```
 Logo após:
 ```bash
-  mpirun -np 8 --host master,worker-1,worker-2,worker-3,worker-4,worker-5,worker-6,worker-7 ./TrabalhoGeneticaIPPD arquivo_fasta.fa
+  mpirun -np 8 --host master,worker-1,worker-2,worker-3,worker-4,worker-5,worker-6,worker-7 ./TrabalhoGeneticaIPPD caenorhabditis_elegans.PRJNA13758.WBPS19.genomic.fa
 ```
 
 ### _Integrantes do grupo_
