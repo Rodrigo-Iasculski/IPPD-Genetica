@@ -1,6 +1,15 @@
 ### _IPPD-Genetica_
 Trabalho feito para disciplina de Introdução Processamento Paralelo E Distribuído na UFPEL.
 
+### _Integrantes do grupo_
+***
+_Carlos Henrique Goebel Teixeira Furtado_
+
+_Lorenzo Baldissera Saldanha_
+
+_Rodrigo Iasculski Da Conceição_
+
+
 Use para compilar:
 ```bash
   mpicc -fopenmp -O2 TrabalhoGeneticaIPPD.c -o TrabalhoGeneticaIPPD
@@ -31,11 +40,3 @@ Logo após:
 ```bash
   mpirun -np 8 --host master,worker-1,worker-2,worker-3,worker-4,worker-5,worker-6,worker-7 ./TrabalhoGeneticaIPPD caenorhabditis_elegans.PRJNA13758.WBPS19.genomic.fa
 ```
-
-### _Integrantes do grupo_
-***
-_Carlos Henrique Goebel Teixeira Furtado_
-
-_Lorenzo Baldissera Saldanha_
-
-_Rodrigo Iasculski Da Conceição_
